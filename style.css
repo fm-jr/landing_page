@@ -21,8 +21,47 @@ body {
     gap: 16px;
     align-items: center;
     font-size: 18px;
+    font-weight: bold;
 }
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    gap: 32px;
+    padding-bottom: 120px;
+}
+.main img {
+    max-height: 600px;
+    max-width: 600px;
+    padding: 32px;
+    border-radius: 60px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#e5e7eb;
+    inline-size: 400px;
+}
+.h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 0;
+}
+.p1 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.button {
+    background-color: #3882f6;
+    width: 110px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
 }
